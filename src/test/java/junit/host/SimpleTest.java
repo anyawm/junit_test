@@ -2,8 +2,6 @@ package junit.host;
 
 import org.junit.jupiter.api.*;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 @DisplayName("3 пробных теста")
 
 public class SimpleTest {

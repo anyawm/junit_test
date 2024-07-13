@@ -1,21 +1,13 @@
 package junit.host;
 
-import com.codeborne.selenide.CollectionCondition;
-import io.qameta.allure.AllureId;
+
 import junit.host.data.Language;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Tag;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.*;
-
 import java.util.List;
 import java.util.stream.Stream;
-
 import static com.codeborne.selenide.CollectionCondition.texts;
 import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 public class SelenideWebTest {
