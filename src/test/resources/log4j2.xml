@@ -14,17 +14,19 @@
     </Appenders>
 
     <Loggers>
+        <!--
         <Logger name="src.test.java.junit.host" level="debug" additivity="false">
             <AppenderRef ref="LogToFile"/>
             <AppenderRef ref="LogToConsole"/>
         </Logger>
+        -->
         <!--
         <Logger name="junit.host" level="error" additivity="false">
             <AppenderRef ref="LogToConsole"/>
         </Logger>
           -->
 
-        <Root level="error">
+        <Root level="all">
             <AppenderRef ref="LogToFile"/>
             <AppenderRef ref="LogToConsole"/>
         </Root>

@@ -12,7 +12,6 @@ public class SimpleTest {
             @Tag("REGRESS"),
     })
     @DisplayName("Первый пробный тест")
-
     void NumberOneTest() {
         System.out.println("Hello");
     }
@@ -20,16 +19,14 @@ public class SimpleTest {
     @Test
     @Tag("SMOKE")
     @DisplayName("Второй пробный тест")
-
-    void NumberTwoTest () {
+    void NumberTwoTest() {
         System.out.println("я второй");
     }
 
     @Disabled("номер задачи")
     @Test
     @DisplayName("Третий пробный тест")
-
-    void NumberThreeTest () {
+    void NumberThreeTest() {
         throw new AssertionError("падает");
     }
 
